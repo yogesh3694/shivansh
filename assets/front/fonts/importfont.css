@@ -1,0 +1,74 @@
+
+
+@font-face {
+    font-family: 'CenturyGothic-Bold';
+    src: url('CenturyGothic-Bold.eot');
+    src: url('CenturyGothic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CenturyGothic-Bold.woff2') format('woff2'),
+        url('CenturyGothic-Bold.woff') format('woff'),
+        url('CenturyGothic-Bold.ttf') format('truetype'),
+        url('CenturyGothic-Bold.svg#CenturyGothic-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('OpenSans-Bold.eot');
+    src: url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Bold.woff2') format('woff2'),
+        url('OpenSans-Bold.woff') format('woff'),
+        url('OpenSans-Bold.ttf') format('truetype'),
+        url('OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('CenturyGothic.eot');
+    src: url('CenturyGothic.eot?#iefix') format('embedded-opentype'),
+        url('CenturyGothic.woff2') format('woff2'),
+        url('CenturyGothic.woff') format('woff'),
+        url('CenturyGothic.ttf') format('truetype'),
+        url('CenturyGothic.svg#CenturyGothic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('OpenSans.eot');
+    src: url('OpenSans.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans.woff2') format('woff2'),
+        url('OpenSans.woff') format('woff'),
+        url('OpenSans.ttf') format('truetype'),
+        url('OpenSans.svg#OpenSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('OpenSans-Semibold.eot');
+    src: url('OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Semibold.woff2') format('woff2'),
+        url('OpenSans-Semibold.woff') format('woff'),
+        url('OpenSans-Semibold.ttf') format('truetype'),
+        url('OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('opensans-italic-webfont.eot');
+    src: url('opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-italic-webfont.woff2') format('woff2'),
+         url('opensans-italic-webfont.woff') format('woff'),
+         url('opensans-italic-webfont.ttf') format('truetype'),
+         url('opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

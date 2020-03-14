@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>TRADER NETWORK</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="fonts/importfont.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="icon/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="icon/css/material-design-iconic-font.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/select2.css" />
+    <link rel="stylesheet" href="css/basictable.css" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+    <script src="js/combodate.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.basictable.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="main-header-section">
+            <div class="container">
+                <div class="row">
+                    <div class="responsive-menu-icon">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                    <div class="headerinnercontainer">
+                        <div class="logo-img-area"><img alt="logo" src="images/trader-logo.png"></div>
+                        <div class="header-right-area">
+
+                            <ul class="register-login-btn-area register-login-btn-area01">
+                                <li class="libtn"><a href="#" class="btn-bule-outline">+ post discussion</a></li>
+                                <!-- <li class="lilogin"><a href="#"><i class="zmdi zmdi-account"></i> login</a></li>
+                            <li class="liregister"><a href="#"><i class="zmdi zmdi-edit"></i> register</a></li> -->
+                                <li class="dropdown notification">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton03"
+                                        aria-haspopup="true" aria-expanded="false"><i class="icon icon-icon-9"></i><span>3</span></a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton03">
+                                        <li class="dropdown-item"><a href="#"> nitification 1 </a></li>
+                                        <li class="dropdown-item"><a href="#">nitification 1 </a></li>
+                                        <li class="dropdown-item"><a href="#">nitification 1 </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="setting"><i class="icon icon-icon-10"></i></li>
+                                <li class="note-pade"><i class="icon icon-icon-11"></i></li>
+                                <!-- <li><img src="images/dropdown-circle-img.png"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">Owen Baldwin <i class="fa fa-angle-down" aria-hidden="true"></i></a></li> -->
+                                <li class="dropdown liuser-profile">
+                                    <img src="images/dropdown-circle-img.png"><a href="#" class="dropdown-toggle"
+                                        data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true"
+                                        aria-expanded="false">Owen Baldwin <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li class="dropdown-item"><a href="#"> option</a></li>
+                                        <li class="dropdown-item"><a href="#">option</a></li>
+                                        <li class="dropdown-item"><a href="#">option</a></li>
+                                    </ul>
+                                    <script> jQuery(function () { jQuery('html').addClass('user_login'); });  </script>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="header-menu-area">
+                            <li><a href="#">discussions</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton02"
+                                    aria-haspopup="true" aria-expanded="false">my discussions <i class="fa fa-angle-down"
+                                        aria-hidden="true"></i></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton02">
+                                    <li class="dropdown-item"><a href="#"> option</a></li>
+                                    <li class="dropdown-item"><a href="#">option</a></li>
+                                    <li class="dropdown-item"><a href="#">option</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li><a href="#">about us</a></li>
+                        <li><a href="#">how it works</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="bradcume-section">
+            <div class="container">
+                <div class="row">
+                    <h2>My Created Discussions</h2>
+                </div>
+            </div>
+        </div>
+   <div class="attended-discssion-entrie-section notification-section  password-security-section account-setting-section account-billing-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="sidelist-menu">
+                            <!-- <ul>
+                                <li><a href="#" ><i class="icon icon-icon-12"></i>Billing Methods</a></li>
+                                <li><a href="#" class="active"><i class="icon icon-icon-11"></i>My Payments</a></li>
+                                <li><a href="#"><i class="icon icon-icon-13"></i>Password & Security</a></li>
+                                <li><a href="#"><i class="icon icon-icon-9"></i>Notification</a></li>
+                            </ul> -->
+                            
+                            <ul class="tab">
+                                <li><a href="#" class="tablinks" onclick="openCity(event, 'tab1')" id="defaultOpen"><i class="icon icon-icon-12"></i>Billing Methods</a></li>
+                                <li><a href="#" class="tablinks" onclick="openCity(event, 'tab2')""><i class="icon icon-icon-11"></i>My Payments</a></li>
+                                <li><a href="#" class="tablinks" onclick="openCity(event, 'tab3')"><i class="icon icon-icon-13"></i>Password & Security</a></li>
+                                <li><a href="#" class="tablinks" onclick="openCity(event, 'tab4')"><i class="icon icon-icon-9"></i>Notification</a></li>
+                            </ul> 
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-9 account-table tabcontent" id="tab2">
+                        <table class="table" id="table">
+                            <thead>
+                                <tr>
+                                    <th>Product Description</th>
+                                    <th>price</th>
+                                    <th>status</th>
+                                    <th>comment</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                    <td>$500</td>
+                                    <td>
+                                        <div class="green-button">open</div>
+                                    </td>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                    
+                            
+                                </tr>
+                                <tr>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                    <td>$500</td>
+                                    <td>
+                                        <div class="green-button">open</div>
+                                    </td>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                </tr>
+                                <tr>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                    <td>$500</td>
+                                    <td>
+                                        <div class="green-button">open</div>
+                                    </td>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                </tr>
+                                <tr>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                    <td>$500</td>
+                                    <td>
+                                        <div class="green-button">open</div>
+                                    </td>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                </tr>
+                                <tr>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                    <td>$500</td>
+                                    <td>
+                                        <div class="green-button">open</div>
+                                    </td>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                </tr>
+                                <tr>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                    <td>$500</td>
+                                    <td>
+                                        <div class="red-button">cancelled</div>
+                                    </td>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                </tr>
+                                <tr>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                    <td>$500</td>
+                                    <td>
+                                        <div class="gray-button">close</div>
+                                    </td>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                </tr>
+                                <tr>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                    <td>$500</td>
+                                    <td>
+                                        <div class="red-button">cancelled</div>
+                                    </td>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                </tr>
+                                <tr>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                    <td>$500</td>
+                                    <td>
+                                        <div class="gray-button">close</div>
+                                    </td>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                </tr>
+                                <tr>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                    <td>$500</td>
+                                    <td>
+                                        <div class="gray-button">close</div>
+                                    </td>
+                                    <td>Marketing Coordinator Present SEO</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="load-more-btn">
+                          <a href="#" class="btn-bule-outline">load more</a>
+                        </div>
+                    </div>
+                     <div class="col-md-9 col-sm-9 tabcontent" id="tab1">
+                        <div class="panel panel-default">
+                            <p>Saved Credit Card</p>
+                             <div class="credit-card-section creditcard-border">
+                                <span>xxxx xxxx xxxx 9589</span>
+                                <div class="pay-img">
+                                  <img src="images/credit-card-img1.png">
+                                 </div>
+                                 <a href="#">remove card</a>
+                            </div>
+                             <div class="credit-card-section">
+                                <span>xxxx xxxx xxxx 9589</span>
+                                <div class="pay-img">
+                                  <img src="images/credit-card-img2.png">
+                                 </div>
+                                 <a href="#">remove card</a>
+                             </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <p>Add New Card</p>
+                            <div class="card-no-div">
+                                <div class="form-group">
+                                    <label class="form-label">card number</label>
+                                    <input name="" class="form-controlcls" type="text">
+                                </div>
+                            </div>
+                            <div class="valid-div">
+                                <div class="form-group">
+                                    <label class="form-label">Valid Through</label>
+                                    <input name="" class="form-controlcls" type="text">
+                                </div>
+                            </div>
+                            <div class="cvc-no-div">
+                                <div class="form-group">
+                                    <label class="form-label">CVC Number</label>
+                                    <input name="" class="form-controlcls" type="text">
+                                </div>
+                            </div>
+                            <div class="add-new-card-btn">
+                            <div class="label-title">&nbsp;</div>
+                            <a href="#" class="blue-button">add</a>
+                             </div>
+                            <div class="clear"></div>
+                        </div>
+                       
+                    </div>
+                    <div class="col-md-9 col-sm-9 tabcontent" id="tab3">
+                        <div class="panel panel-default">
+                            <p>Set your security question to reset your password.</p>
+                            <div class="form-group">
+                                <label class="form-label">Security Question</label>
+                                <select class="form-control">
+                                    <option>birthdate</option>
+                                    <option>kuala lumpur1</option>
+                                    <option>kuala lumpur2</option>
+                                 </select>
+                                
+                            </div>
+                             <div class="form-group">
+                             <div class="from-to-main-section">
+                                <div class="label-title">&nbsp;</div>
+                                <div class="from-date-section">
+                                    <input type="text" value="" id="datepicker-form03" placeholder="From" class="form-controlcls">
+                                </div>
+                            </div>
+                            </div>
+                            <div class="save-btn">
+                            <div class="label-title">&nbsp;</div>
+                            <a href="#" class="blue-button">save</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="col-md-9 col-sm-9 tabcontent" id="tab4">
+                        <div class="panel panel-default">
+                            <p>Set email address where you want to get notification.</p>
+                            <div class="form-group">
+                                <label class="form-label">email</label>
+                                <input name="" class="form-controlcls" type="email">
+                            </div>
+                            <div class="save-btn">
+                            <div class="label-title">&nbsp;</div>
+                            <a href="#" class="blue-button">save</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <section class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 foot-quick-link-section">
+                        <div class="fotitle">
+                            <h2>quick links</h2>
+                        </div>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> home</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> fAQs</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> discussions</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> contact us</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> about us</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> privacy policy</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> how it works</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> terms &
+                                    conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 foot-keep-in-touch-main">
+                        <div class="fotitle">
+                            <h2>let's keep in touch</h2>
+                        </div>
+                        <ul class="foot-network-link">
+                            <li><a href="#"><i class="zmdi zmdi-email"></i> support@trader-network.com</a></li>
+                            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i> support@trader-network.com</a></li>
+                        </ul>
+                        <ul class="foot-social-icon">
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 foot-newsletter-section">
+
+                        <div class="fotitle">
+                            <h2>email newsletter</h2>
+                        </div>
+                        <p>Subscribe to us and we will automatically provide you daily update.</p>
+                        <form>
+                            <div class="email-txt">
+                                <input type="email" name="" placeholder="Enter your email here">
+                                <button type="submit" class="blue-button">subscribe</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="copyright-section">
+            <p>Copyright © 2018 Trader Network.<span> All Rights Reserved.</span></p>
+        </section>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $(".responsive-menu-icon").click(function () {
+                $(".headerinnercontainer").toggleClass('openn');
+                $(this).toggleClass('openn');
+            });
+
+            var dateFormat = "dd/mm/yy",
+                from = $("#datepicker-form03")
+                    .datepicker({
+                        defaultDate: "+1w",
+                        changeMonth: true,
+                        numberOfMonths: 1
+
+                    })
+                    .on("change", function () {
+                        to.datepicker("option", "minDate", getDate(this));
+                    }),
+
+                to = $("#datepicker-to").datepicker({
+                    defaultDate: "+1w",
+                    changeMonth: true,
+                    numberOfMonths: 1
+                })
+                    .on("change", function () {
+                        from.datepicker("option", "maxDate", getDate(this));
+                    });
+
+            function getDate(element) {
+                var date;
+                try {
+                    date = $.datepicker.parseDate(dateFormat, element.value);
+                } catch (error) {
+                    date = null;
+                }
+
+                return date;
+            }
+            $('#table').basictable({ breakpoint: 870 });
+
+        });
+    </script>
+    <script>
+        jQuery(document).ready(function () {
+            comon_mincontentheight();
+        });
+        jQuery(window).resize(function (e) {
+            comon_mincontentheight();
+        });
+
+        function comon_mincontentheight() {
+            var wheight01 = jQuery(window).height();
+            var fotheight01 = jQuery('footer').outerHeight();
+            var cphert1 = wheight01 - fotheight01;
+            if (jQuery('.main').length > 0) {
+                jQuery('.main').css({ "min-height": cphert1 });
+            }
+
+        }
+    </script>
+    <script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+@media(max-width: 1300px){
+  .paynow_cust_col_right {padding-left: 30px;}
+}
+@media(max-width: 1200px){
+  .element-box.table_container, a.element-box {padding: 20px;}
+  .dashboard_box {width: 33.33%;}
+  .dob_custom_width .col-md-4 {-webkit-box-flex: 0;-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}
+  .dob_custom_width .col-md-4:first-child, .col-md-9.custom_col_width, .dashboard_page .col-sm-6 {-webkit-box-flex: 0;-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+  .t_name, .t_location {width: auto;}
+  .col-md-9.custom_col_width {margin-top: 20px;}
+  .accordion_content .card:last-child {margin-bottom: 0;}
+  .add_user_page .combodate select.form-control {width: 31.5% !important;}
+  .admin_table.table thead th.sorting,
+  .admin_table.table thead th.sorting_asc,
+  .admin_table.table thead th.sorting_desc {padding-right: 30px !important;}
+  .admin_table.table thead th.sorting:before,
+  .admin_table.table thead th.sorting_asc:before,
+  .admin_table.table thead th.sorting_desc:before {right: 20px;left: auto;}
+  .paynow_cust_col_left, .paynow_cust_col_right {width: 100%;}
+  .paynow_cust_col_right {padding-left: 0;padding-top: 15px;}
+  .trader-listing-detail-tabs ul.accordion-tab-headings li {margin-right: 30px;}
+}
+@media(max-width: 1024px){
+  .toggle_icon {display: inline-block;position: absolute;left: 0;top: 18px;z-index: 111;}
+  .adminlogo_cls, .top-bar.color-scheme-transparent {min-height: 1px;}
+  .menu-w.menu-layout-compact {-webkit-box-flex: 0;-ms-flex: 0 0 270px;flex: 0 0 270px;}
+  .menu-w.menu-layout-compact ul.main-menu {width: 270px;}
+  .menu-w {position: fixed;height: 100%;left: -270px;transition: 0.4s ease-in-out;-webkit-transition: 0.4s ease-in-out;-moz-transition: 0.4s ease-in-out;-o-transition: 0.4s ease-in-out;z-index: 999;}
+  .menu-w.slide_toggle {left: 0;overflow: auto;}
+  .adminlogo_cls {position: relative;}
+  .close_slidebar {display: inline-block;}
+  .content-w, .content-w.slide_overlay, .content-w.slide_overlay:after {}
+  .content-w:after {content: '';display: inherit;background-color: rgba(0, 0, 0, 0.5);position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;z-index: -1;opacity: 0;transition: 0.4s ease-in-out;-webkit-transition: 0.4s ease-in-out;-moz-transition: 0.4s ease-in-out;-o-transition: 0.4s ease-in-out;}
+  .content-w.slide_overlay:after {z-index: 111;opacity: 1;}
+  .accordion_content .card-header, .accordion_inner {padding: 20px;}
+  .accordion_inner:before {left: 20px;right: 20px;}
+  .content-box {padding: 20px;}
+  .alert-success {width: calc(100% - 40px);}
+  .form_container {padding: 20px;}
+  td.t_skill {width: auto;}
+}
+@media(max-width: 767px){
+  .body_review_content {padding: 15px;}\
+}
+@media(max-width: 767px){
+  input.input_submit, .accordion .card-header h5, .form_group label, .admin_table.table thead th {font-size: 14px;}
+  .toggle_icon {margin-left: 15px;}
+  .toggle_icon {width: 25px;top: 20px;}
+  .toggle_icon span {height: 3px;margin-bottom: 3px;}
+  .element-box.table_container {padding: 15px;}
+  .form_container, .accordion_content .card-header, .accordion_inner {padding: 15px;}
+  .accordion_inner:before {left: 15px;right: 15px;}
+  .accordion_content .card-header h5::after {font-size: 14px;}
+  .mobile_margin_top {margin-top: 15px;}
+  .dob_custom_width .col-md-4 {-webkit-box-flex: 0;-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+  .manage_user_page .admin_table.table td, .admin_table.table td {padding: 10px 3px 10px 0 !important;}
+  .admin_table tr thead, .admin_table tr th {display: none;}
+  .admin_table tbody,
+  .admin_table tr,
+  .admin_table tr td {display: inline-block;width: 100%;box-sizing: border-box;}
+  .admin_table.table th, .admin_table.table td {border: none !important;}
+  .admin_table tr {border-bottom: 1px solid #f2f2f2; width: 100%;}
+  .admin_table tr td {position: relative;width: 100%;}
+  .manage_user_page .admin_table.table td, .admin_table.table td {padding-left: 230px !important;word-break: break-all;}
+  .admin_table tr td:after {content: ":";display: inline-block;position: absolute;left: 210px;top: 13px;line-height: normal;}
+  .admin_table tr td:before {content: '';display: inline-block;font-family: 'OpenSans-SemiBold';font-size: 14px;color: #333333;width: 200px;position: absolute;left: 0;top: 0;padding: 10px;text-align: left;}
+  .admin_table.open_descussion_table tr td:nth-child(1):before {content: 'Title';}
+  .admin_table.open_descussion_table tr td:nth-child(2):before {content: 'Budget';}
+  .admin_table.top_user_table tr td:nth-child(1):before {content: 'Name';}
+  .admin_table.top_user_table tr td:nth-child(2):before {content: 'Location';}
+  .admin_table.top_user_table tr td:nth-child(3):before {content: 'Skill Points';}
+  .admin_table.manage_user_table tr td:nth-child(1):before {content: 'No';}
+  .admin_table.manage_user_table tr td:nth-child(2):before {content: 'Name';}
+  .admin_table.manage_user_table tr td:nth-child(3):before {content: 'Location';}
+  .admin_table.manage_user_table tr td:nth-child(4):before {content: 'Skill Points';}
+  .admin_table.manage_user_table tr td:nth-child(5):before {content: 'E-Market Points';}
+  .admin_table.manage_user_table tr td:nth-child(6):before {content: 'Action';}
+  .admin_table.cate_manage_table tr td:nth-child(1):before {content: 'No.';}
+  .admin_table.cate_manage_table tr td:nth-child(2):before {content: 'Category';}
+  .admin_table.cate_manage_table tr td:nth-child(3):before {content: 'Sub Categories';}
+  .admin_table.cate_manage_table tr td:nth-child(4):before {content: 'Status';}
+  .admin_table.cate_manage_table tr td:nth-child(5):before {content: 'Action';}
+  .admin_table.manage_faq_table tr td:nth-child(1):before {content: 'No.';}
+  .admin_table.manage_faq_table tr td:nth-child(2):before {content: 'FAQ Question & Answer';}
+  .admin_table.manage_faq_table tr td:nth-child(3):before {content: 'Action';}
+  .manage_discussion_page .admin_table tr td:nth-child(1):before {content: 'No.';}
+  .manage_discussion_page .admin_table tr td:nth-child(2):before {content: 'Title';}
+  .manage_discussion_page .admin_table tr td:nth-child(3):before {content: 'Budget';}
+  .manage_discussion_page .admin_table tr td:nth-child(4):before {content: 'Category';}
+  .manage_discussion_page .admin_table tr td:nth-child(5):before {content: 'Date & Time';}
+  .manage_discussion_page .admin_table tr td:nth-child(6):before {content: 'Status';}
+  .manage_discussion_page .admin_table tr td:nth-child(7):before {content: 'Action';}
+  .manage_subscribe_page .admin_table.table tbody td:nth-child(1):before {content: 'No';}
+  .manage_subscribe_page .admin_table.table tbody td:nth-child(2):before {content: 'Email';}
+  .manage_discussion_page .admin_table td:last-child, .manage_user_page .admin_table td:last-child, th.no, td.no, td.text-center, td.t_no, th.t_no {text-align: left !important;}
+  td.t_user_img img {display: block;}
+  h5.form-header.add_user {right: 15px;top: 10px;}
+  .dataTables_paginate {display: inline-block;margin-top: 15px !important;text-align: center;width: 100%;}
+  .dataTables_paginate ul {display: inline-block;width: 100%;text-align: center;}
+  .dataTables_paginate ul li {display: inline-block;}
+  .category_management_page .col-md-5, .category_management_page .col-md-2 {padding-left: 15px;padding-right: 15px;}
+  .category_management_page .form-div {overflow: hidden;}
+  .manage_faq_page th.action, .manage_faq_page td.action, .admin_table th.action, .admin_table td.action {width: auto !important;text-align: left;}
+  .category_management_page input.input_submit {margin-top: 5px;}
+  .manage_faq_page .on_bhalf_div {padding-right: 0;}
+  .manage_faq_page input.input_submit {position: relative;left: auto;top: auto;bottom: auto;}
+  .auth-box-w form {padding: 20px 23px 20px 60px;}
+  .admin_table.view_usr_table tr td, 
+  .admin_table.view_usr_table tr th {display: inline-block;float: left;width: 50% ;}
+  .admin_table.view_usr_table tr td {padding-left: 10px !important;}
+  .admin_table.view_usr_table tr td:after,
+  .admin_table.view_usr_table tr td:before {display: none;}
+  .alert-success {width: calc(100% - 30px);}
+  .discussionid-div h3 {padding: 13px 20px;}
+  .trader-listing-detail-box .latest-discussion-box-bg,
+  .pay_now_box .paynow_details_content {padding: 15px 20px;} 
+  .trader-listing-detail-box .trader-listing-detail-box1 {padding: 0;}
+  .trader-listing-detail-box .commen-box-cls .commen-tabelcell-box {padding-left: 15px;}
+  .presenter-address ul li {min-width: 1px;margin-right: 0;width: 100%;}
+  .presenter-address {padding-right: 0;}
+  .trader-listing-detail-tabs-box .Presenter-count {float: none;width: 100%;position: relative;top: auto;right: auto;text-align: left;}
+  .discussion_paynow_page .dashboard_box .element-box.el-tablo {text-align: left;}
+  .trader-listing-detail-tabs-box {padding: 20px;}
+  .trader-listing-detail-tabs ul.accordion-tab-headings li {margin-right: 20px;}
+  .trader-listing-detail-tabs ul.accordion-tab-headings li a {font-size: 14px;}
+  .paynow_details_content ul li {margin-bottom: 10px;font-size: 14px;}
+  .tab_review_content .presenter-img {width: 50px;height: 50px;}
+  .tab_review_content .presenter-address {width: calc(100% - 50px);}
+  .accordion .card-header .presenter-address h5 {font-size: 16px;}
+  .body_review_content {padding: 15px;}
+  .paynow_details_content ul li:before {font-size: 26px;top: -3px;}
+  .paynow_details_content ul li {padding-left: 40px;}
+  .skill-documents-section ul.skill-require {margin-bottom: 30px;}
+  .skill-documents-section .col-sm-6 {-webkit-box-flex: 0;-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+  .trader-content-description {margin-top: 15px;}
+  .notification_page .notification_main_content {padding: 20px;}
+  .notification_page .notification_main_content a.noti_close {left: auto;top: 10px; right: 10px;bottom: auto;line-height: normal;display: inline-block;height: 15px;width: 15px;}
+  .discu_notfound {text-align: center;}
+  .sequrity_que_spc {padding-bottom: 0;}
+  .modal.in .modal-dialog {display: block;width: 85%;margin: 30px auto;}
+  .popup_middile {display: inline-block;width: 100%;}
+  .admin_table.table tbody td:last-child {text-align: center;}
+  .big_width_tooltip .tooltiptext {width: 280px;left: -140px;}
+}
+@media(max-width: 640px){
+  .manage_user_page .admin_table.table td, .admin_table.table td {padding-left: 185px !important;}
+  .admin_table tr td:after {left: 175px;}
+  .admin_table tr td:before {width: 165px}
+  .discussion_paynow_page .dashboard_box,
+  .dashboard_box {width: 100%;margin-bottom: 10px;}
+  /*.dashboard_box .paynow_btn {position: relative;left: auto;right: auto;top: auto;bottom: auto;}*/
+  .discussion_paynow_page a.element-box.el-tablo .value {width: 100%;}
+  .custom_col_width .col-md-3 {-webkit-box-flex: 0;-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+  .dis_details_tab_content .accordion-tab-title {display: block;}
+  .dis_details_tab_content .accordion-tab-content {padding-top: 0;}
+  .notification_page .notification_main_content {text-align: center;}
+  .notification_page .noti_img {display: block;margin: 0 auto;float: none;}
+  .notification_page .noti_text {width: 100%;padding-left: 0;padding-top: 10px;}
+  .sequrity_que_spc .form_group {width: 100%;}
+  .sequrity_que_spc input.input_submit {padding: 7px 15px;width: auto;margin-top: 20px;margin-left: 0;}
+  .body_review_content .rating_star,
+  .tab_review_content .presenter-address,
+  .body_review_content .review_title_time span, .body_review_content .review_title_time h4 {display: inline-block;width: 100%;float: none;}
+  .tab_review_content .presenter-address {padding-left: 0;padding-top: 10px;}
+  .tab_review_content .presenter-img {display: block;margin: 0 auto;}
+  .accordion_content .card-header .tab_review_content h5:after {top: 8px;}
+  .accordion .card-header .presenter-address h5 {padding-right: 20px;}
+  
+}
+@media(max-width: 567px){
+  .manage_user_page .admin_table.table td, .admin_table.table td {padding-left: 130px !important;}
+  .admin_table tr td:after {left: 115px;}
+  .admin_table tr td:before {width: 110px}
+  .manage_faq_page .on_bhalf_div .form_group:last-child label.error {position: relative;left: auto;bottom: auto;}
+  h5.form-header.add_user {position: relative;top: auto;right: auto;display: inline-block;width: 100%;text-align: center;}
+  .element-wrapper .element-header {width: 100%;text-align: center;display: inline-block;margin-bottom: 15px;}
+  .auth-box-w {width: 90%;display: block;}
+  .trader-listing-detail-box .latest-discussion-box-bg, .pay_now_box .paynow_details_content {padding: 15px;}
+  .discussionid-div h3 {padding: 12px 15px;}
+  .trader-listing-detail-box .commen-box-cls h3.commen-tabelcell-box,
+  .presents-attendes-area .presents-circle-area,
+  .accordion .card-header .presenter-address h5,
+  .trader-listing-detail-box .presents-attendes-area h3 {font-size: 14px;}
+  .trader-listing-detail-box .presents-attendes-area h3 {width: 100%;display: inline-block;padding-bottom: 10px;margin-bottom: 0;}
+  .accordion .card-header .presenter-address h5 {line-height: normal;}
+  .accordion .card-header .presenter-address .rating-score {padding-top: 10px;}
+  .trader-listing-detail-tabs-box .presenter-address {width: 100%;padding-left: 0;padding-top: 15px;}
+  .trader-listing-detail-tabs-box {padding: 15px;}
+  .trader-listing-detail-tabs-box .commen-icon-cls:after {left: 5px;top: 5px;}
+  .body_review_content .review_title_time {width: 100%;padding-left: 0;padding-top: 15px;}
+  .notification_page .notification_main_content {padding: 15px;}
+}
+@media(max-width: 479px) {
+  .add_user_page .combodate select.form-control {width: 100% !important;margin: 0;margin-bottom: 15px;}
+  .discussion_paynow_page .dashboard_box {width: 100%;}
+}
+@media(max-width: 380px) {
+  .add_user_page .combodate select.form-control {margin-right: 0;margin-bottom: 10px;}
+  .pay_now_box .paynow_details_content .paynow_usr_title,
+  .pay_now_box .form_group input {width: 100%;}
+  .pay_now_box .form_group input.input_submit {margin-left: 0;margin-top: 10px;width: auto;}
+  .pay_now_box .paynow_details_content .paynow_usr_title {padding-left: 0;padding-top: 15px;}
+  .trader-listing-detail-tabs-box {padding: 15px 15px 55px 15px}
+  .presents-attendes-area .presents-area-commen-cls {width: 100%;}
+  .presents-attendes-area .presents-area-commen-cls.attendes-area-cls {padding-left: 0;padding-top: 10px;}
+  .presents-attendes-area .presents-area-commen-cls .inner-txt {float: none;}
+  .trader-listing-detail-tabs-box .approve-line {background: #6fdc4a;transform: none;display: inline-block;width: 100%;text-align: center;top: auto;left: 0;right: 0;bottom: 0;}
+  .dashboard_box .paynow_btn {right: 15px;font-size: 12px;height: 32px;padding: 8px 13px}
+}
